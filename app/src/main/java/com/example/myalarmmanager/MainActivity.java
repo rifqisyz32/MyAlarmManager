@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnOneTimeTime = (Button)findViewById(R.id.btn_one_time_alarm_time);
         btnOneTime = (Button)findViewById(R.id.btn_set_one_time_alarm);
         tvRepeatingTime = (TextView)findViewById(R.id.tv_repeating_alarm_time);
- //       edtRepeatingMessage = (EditText)findViewById(R.id.edt_repeating_alarm_message);
+        edtRepeatingMessage = (EditText)findViewById(R.id.edt_repeating_alarm_message);
         btnRepeatingTime = (Button)findViewById(R.id.btn_repeating_time_alarm_time);
         btnRepeating = (Button)findViewById(R.id.btn_repeating_time_alarm);
         btnCancelRepeatingAlarm = (Button)findViewById(R.id.btn_cancel_repeating_alarm);
